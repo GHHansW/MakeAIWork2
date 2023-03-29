@@ -1,0 +1,23 @@
+import pygame
+import numpy as np
+
+pygame.init()
+screen = pygame.display.set_mode((400, 400))
+
+color = (255, 255, 255)
+line_thickness = 2
+
+points = np.array([(1, 0), (0, 2), (1, 2), (1, 0)])
+points = [(x*100 + 200, y*100 + 200) for x,y in points]
+
+pygame.draw.lines(screen, color, True, points, line_thickness)
+
+pygame.display.update()
+
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+pygame.quit()

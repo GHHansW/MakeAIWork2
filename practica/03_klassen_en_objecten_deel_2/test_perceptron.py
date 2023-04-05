@@ -41,7 +41,7 @@ logging.info(f"Predicted y value : {prediction}")
 orPerceptron = Perceptron()
 
 yTrain = np.array([0, 1, 1, 1])
-orPerceptron.train(xTrain, yTrain, epochs=100, learningRate=0.1)
+orPerceptron.train(xTrain, yTrain, epochs=10, learningRate=0.1)
 testInput = np.array([0, 0])
 testInput = np.array([0, 1])
 testInput = np.array([1, 0])

@@ -44,7 +44,7 @@ class Perceptron:
         nrOfFeatures = X.shape[1]
         self.initialize(nrOfFeatures)
 
-        epochs = range(0, epochs)
+        epochs = range(100, epochs)
 
         # for each epoch
         for epoch in epochs:

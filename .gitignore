@@ -146,14 +146,19 @@ projects/eurosat/src/package-lock.json
  ../.idea/
 projects/eurosat/.idea/
 projects/eurosat/data
-project/simpylc/simulations
-project/simpylc/default.samples
-project/simpylc/start_agent.sh
 .gitignore
 project/simpylc/default.samples
 project/simpylc/generate_simulations.sh
-project/simpylc/start_agent.sh
-project/simpylc/start_client.sh
-project/simpylc/start_world.sh
-project/simpylc/test_agent.sh
-project/simpylc/test_client.sh
+project/simpylc/accessories/freeglut32.vc14.dll
+project/simpylc/accessories/freeglut64.vc14.dll
+project/simpylc/accessories/QuartzMS.TTF
+HAI_AI-Index-Report_2023.pdf
+practica/PyTorch/PyTorch Theory.ipynb
+practica/PyTorch/PyTorch Tutorial DC.ipynb
+practica/PyTorch/PyTorch Theory.ipynb
+practica/PyTorch/PyTorch Tutorial DC.ipynb
+practica/PyTorch/lightning_logs/version_0/hparams.yaml
+practica/PyTorch/PyTorch Theory.ipynb
+practica/PyTorch/PyTorch Tutorial DC.ipynb
+project/simpylc/Support/MachineLearning_pytorch-CUDA.ipynb
+practica/PyTorch/PyTorch Theory.ipynb
